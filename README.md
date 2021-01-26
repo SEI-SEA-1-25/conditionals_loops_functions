@@ -90,7 +90,7 @@ const pets = {
   hercules: 'Pinscher'
 }
 
-for (let dogName of pets) {
+for (let dogName in pets) {
   console.log(`${dogName} is a wonderful ${pets[dogName]}`)
 }
 ```
