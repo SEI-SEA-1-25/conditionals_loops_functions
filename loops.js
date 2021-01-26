@@ -9,4 +9,6 @@ console.log("Hello from loops!")
 
 // 4) Create a variable called numbers that starts off as an empty array. Use a loop to push the numbers 1 through 5 into this array. You'll need to use the .push method of your array, google it!
 
-// 5) Create a variable called squaredNumbers that starts off as an empty array. Loop through the numbers variable, and for each one, push that number squared into the squaredNumbers array. (To square a number, multiple it by itself!)
+// 5) Create a variable called squaredNumbers that starts off as an empty array. Loop through the numbers variable (from exercise 4), and for each one, push that number squared into the squaredNumbers array. (To square a number, multiple it by itself!)
+
+// 6) Create an object that contains the names of 3 friends as keys, with each key pointing to that friend's age. (It is ok to guess your friends' ages.) Assign this object to a variable called friends. Loop through this object, and for each key-value pair, print "<name> is <age> years old"

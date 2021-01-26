@@ -83,6 +83,21 @@ for (let i = 0; i < greetings.length; i++) {
 }
 ```
 
+Another important trick is looping through objects:
+```js
+const pets = {
+  violet: 'Pitbull',
+  hercules: 'Pinscher'
+}
+
+for (let dogName of pets) {
+  console.log(`${dogName} is a wonderful ${pets[dogName]}`)
+}
+```
+
+Note that `pets.dogName` is not the same as `pets[dogName]`! What's the difference?
+
+
 Try the exercises in `loops.js`!
 
 ## Functions
