@@ -1,7 +1,9 @@
 # JS Conditionals, Loops, Functions
 
 ## Learning Goals
-- 
+- Use comparisons, `if/else`, and conditionals
+- Use `for` loops and `while` loops
+- Use functions, parameters, and return values
 
 ## Conditionals
 ### Basics
@@ -11,7 +13,7 @@ You can compare any two values with the following operators:
 - `<`, less than
 - `>=`, less than or equal to
 - `===`, equal to
-- `!==`, equal to
+- `!==`, not equal to
 
 We use conditionals to control which lines of code run. Our main tool is the _if statement_:
 ```js
