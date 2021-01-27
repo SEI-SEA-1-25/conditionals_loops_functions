@@ -1,8 +1,16 @@
 // you can delete this log one you're sure that this file is linked correctly
-console.log("Hello from functions!")
 
 // 1) Write a function called addOne that takes a number as an argument, adds 1 to it, and returns the result.
 // Invoke this function, and assign it to a new variable. Print this variable.
+
+function addOne(number) {
+    final = number + 1;
+    return final
+}
+
+const newNumber = addOne(3)
+console.log(newNumber);
+
 
 // 2) Write a function called addition that takes in two numbers, adds them together, and returns the result.
 // Invoke this function, and assign it to a new variable. Print this variable.
