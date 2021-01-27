@@ -2,8 +2,25 @@
 console.log("Hello from loops!")
 
 // 1) Count to 10! Print the numbers between 1 and 10. Do this once with a for loop, then again with a while loop. Beware the infinite while loop!
+/*
+for (let i=0; i<11; i++) {
+    consoxle.log(i);
+} */
+
+/*
+let a = 0;
+while (a < 10) {
+    a = a+1;
+    console.log(a);
+}
+*/
 
 // 2) Count from 20 to 100 in multiples of 5, one with a for loop and once with a while
+let b = 20;
+while (b < 100) {
+    b = b+5;
+    console.log(b);
+}
 
 // 3) Make an array that contains your 5 favorite foods, stored as strings. Loop through this array, and print "I love <food>!" for each one.
 
