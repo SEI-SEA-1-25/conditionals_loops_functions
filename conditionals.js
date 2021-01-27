@@ -1,15 +1,32 @@
 // you can delete this log one you're sure that this file is linked correctly
-console.log("Hello from conditionals!")
 
 // 1)
 // Create a variable called dogName, set it to 'Violet'
+
 // if dogName is Violet, print "This is the best dog"
+
 // otherwise, if dogName is Moose, print "Also a very good dog"
 // otherwise, print "All dogs are good"
+var dogName = "bob";
+
+if (dogName == "Violet"){
+console.log(`This is the best Dog ${dogName}`);
+}
+else if (dogName == "Moose"){
+    console.log("Also a very good Dog");
+}
+else {
+    console.log ("all dogs are good");
+}
 
 // 2) If 5 is greater than 4, print "Math still works, what a relief"
 // otherwise, print "The basic laws of math have failed us"
-
+if( 5 > 6){
+    console.log("Math still works, what a relief");
+}
+else{
+    console.log("The basic laws of math have failed us");
+}
 // 3) Create two variables, income and expenses, giving them whatever values you'd like.
 // If income is greater than or equal to expenses, print "Budget is balanced", then print the amount of surplus
 // Otherwise, print "Uh oh, budgeting problem", then print the amount of defecit
