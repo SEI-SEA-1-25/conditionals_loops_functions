@@ -3,6 +3,13 @@ console.log("Hello from functions!")
 
 // 1) Write a function called addOne that takes a number as an argument, adds 1 to it, and returns the result.
 // Invoke this function, and assign it to a new variable. Print this variable.
+let num = 0;
+
+function addOne() {
+    num += 1
+    return num
+}
+console.log(num);
 
 // 2) Write a function called addition that takes in two numbers, adds them together, and returns the result.
 // Invoke this function, and assign it to a new variable. Print this variable.
