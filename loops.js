@@ -1,5 +1,5 @@
 // you can delete this log one you're sure that this file is linked correctly
-console.log("Hello from loops!")
+// console.log("Hello from loops!");
 
 // 1) Count to 10! Print the numbers between 1 and 10. Do this once with a for loop, then again with a while loop. Beware the infinite while loop!
 
