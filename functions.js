@@ -4,11 +4,50 @@ console.log("Hello from functions!")
 // 1) Write a function called addOne that takes a number as an argument, adds 1 to it, and returns the result.
 // Invoke this function, and assign it to a new variable. Print this variable.
 
+function addOne(number){
+    number = number + 1;
+    return(number);
+}
+
+const result = addOne(4);
+console.log(result);
+
 // 2) Write a function called addition that takes in two numbers, adds them together, and returns the result.
 // Invoke this function, and assign it to a new variable. Print this variable.
 
+function addition(n1,n2){
+    return(n1+n2);
+}
+
+//console.log(addition(2,2));
+
+const results = addition(2,2);
+console.log(results);
+
 // 3) Write a function called calculator that takes in three arguments: two numbers, and a string. If the string is '+', it should add them together; if the string is '-', subtract them, and so on for '*' and '/'. It should return the result of the calculation.
 // Invoke this function, and assign it to a new variable. Print this variable.
+
+function calculator( n1, n2, str1){
+    if(str1 === '+'){
+        return(n1+n2);
+    } else if (str1 === '-'){
+        return(n1-n2);
+    } else if (str1 === '*'){
+        return(n1*n2);
+    } else if (str1 === '/'){
+        return(n1/n2);
+    } 
+    else {
+        return('not a valid symbol')
+    }
+}
+
+console.log(calculator(4,3,'+'));
+console.log(calculator(4,3,'-'));
+console.log(calculator(4,3,'*'));
+console.log(calculator(4,3,'/'));
+console.log(calculator(4,3,'^'));
+
 
 // 4) Write a function called findMax that takes in an array of numbers and returns the highest number in the array.
 // Invoke this function, and assign it to a new variable. Print this variable.

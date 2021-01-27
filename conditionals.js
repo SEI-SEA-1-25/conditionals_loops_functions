@@ -7,8 +7,23 @@ console.log("Hello from conditionals!")
 // otherwise, if dogName is Moose, print "Also a very good dog"
 // otherwise, print "All dogs are good"
 
+const dogName = 'Violet';
+if(dogName === 'Violet'){
+    console.log('This is the best dog');
+} else if (dogName === 'Moose') {
+    console.log('Also a very good dog');
+} else {
+    console.log('All dogs are good');
+}
+
 // 2) If 5 is greater than 4, print "Math still works, what a relief"
 // otherwise, print "The basic laws of math have failed us"
+
+if(5>4){
+    console.log('Math still works, what a relief');
+} else{
+    console.log('The basic laws of math have failed us');
+}
 
 // 3) Create two variables, income and expenses, giving them whatever values you'd like.
 // If income is greater than or equal to expenses, print "Budget is balanced", then print the amount of surplus
